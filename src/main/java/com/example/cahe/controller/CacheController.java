@@ -13,4 +13,11 @@ public class CacheController {
     public String[] getData(String key) {
         return myService.getCachedData(key);
     }
+
+    @GetMapping(value = "/get-data-2")
+    public String[] getData2(String key) {
+        return myService.getCachedData(key);
+    }
+
+
 }
