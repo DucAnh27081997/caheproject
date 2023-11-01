@@ -11,4 +11,9 @@ public class HomeController {
     public String Add() {
         return "HELLO";
     }
+
+    @RequestMapping(value = "add2", method = RequestMethod.GET)
+    public String Add2() {
+        return "HELLO";
+    }
 }
