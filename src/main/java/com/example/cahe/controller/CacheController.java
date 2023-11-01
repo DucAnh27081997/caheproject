@@ -16,6 +16,7 @@ public class CacheController {
 
     @GetMapping(value = "/get-data-2")
     public String[] getData2(String key) {
+        System.out.printf("ABC");
         return myService.getCachedData(key);
     }
 
