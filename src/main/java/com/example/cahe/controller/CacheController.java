@@ -21,6 +21,13 @@ public class CacheController {
 
     @GetMapping(value = "/get-data-3")
     public String[] getData3(String key) {
+        System.out.println("1");
+        for (int index = 0; index < array.length; index++) {
+            System.out.println(i);
+        }
         return myService.getCachedData(key);
+    }
+    public static void main(String[] args) {
+        System.out.println("hello world");
     }
 }
