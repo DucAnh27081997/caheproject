@@ -16,6 +16,9 @@ public class CacheController {
 
     @GetMapping(value = "/get-data-2")
     public String[] getData2(String key) {
+        for (int i = 0; i < 100; i++) {
+            System.out.println(i);
+        }
         return myService.getCachedData(key);
     }
 
