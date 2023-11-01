@@ -16,4 +16,7 @@ public class HomeController {
     public String Add2() {
         return "HELLO";
     }
+
+    private static final String URL_CONFIG = "localhost";
+    private static final String PORT_CONFIG = "8080";
 }
