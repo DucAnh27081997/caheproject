@@ -19,7 +19,7 @@ public class CacheController {
         return myService.getCachedData(key);
     }
 
-    @GetMapping(value = "/get-data-2")
+    @GetMapping(value = "/get-data-3")
     public String[] getData3(String key) {
         return myService.getCachedData(key);
     }
