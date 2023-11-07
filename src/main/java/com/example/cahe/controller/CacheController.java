@@ -29,6 +29,11 @@ public class CacheController {
         return myService.getCachedData(key);
     }
 
+    @GetMapping(value = "/get-data-6")
+    public String[] getData6(String key) {
+        return myService.getCachedData(key);
+    }
+
     public static void main(String[] args) {
         System.out.println("hello world");
     }
