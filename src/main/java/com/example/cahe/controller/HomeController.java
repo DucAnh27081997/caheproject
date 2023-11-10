@@ -18,5 +18,7 @@ public class HomeController {
     }
 
     private static final String URL_CONFIG = "localhost";
-    private static final String PORT_CONFIG = "8080";
+    private static final String PORT_CONFIG = ScheduleController.TOKEN;
+
+
 }
