@@ -26,6 +26,11 @@ public class ScheduleController {
         return "[Hello " + name + "]";
     }
 
+    @GetMapping("/hello2")
+    public String hello2(@RequestParam String name) {
+        return "[Hello " + name + "]";
+    }
+
 //    @Scheduled(fixedDelay = 3000)
 //    public void scheduleFixedDelayTask() {
 //        System.out.println("Fixed delay task - " + System.currentTimeMillis() / 1000);
